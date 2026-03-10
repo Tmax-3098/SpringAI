@@ -11,8 +11,8 @@ public class AiServiceTest {
     private AiService aiService;
 
     @Test
-    public void getJoke(){
-        String topic = "blackpink";
+    public void testAiServiceGetDesign(){
+        String topic = "rearwing";
         String output = aiService.getJoke(topic);
         System.out.println(output);
     }
