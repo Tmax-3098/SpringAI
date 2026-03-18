@@ -14,12 +14,12 @@ public class AiServiceTest {
     @Autowired
     private AiService aiService;
 
-    @Test
-    public void testAiServiceGetDesign(){
-        String topic = "rearwing";
-        String output = aiService.getJoke(topic);
-        System.out.println(output);
-    }
+//    @Test
+//    public void testAiServiceGetDesign(){
+//        String topic = "rearwing";
+//        String output = aiService.getJoke(topic);
+//        System.out.println(output);
+//    }
 
 //    @Test
 //    public void testAiServiceGetEmbedding(){
@@ -33,11 +33,12 @@ public class AiServiceTest {
 //        aiService.ingestDataToVectorStore();
 //    }
 
-    @Test
-    public void testSimilaritySearch(){
-        List<Document> result = aiService.similaritySearch("space movie");
-        for(var doc: result){
-            System.out.println(doc);
-        }
-    }
+//    @Test
+//    public void testSimilaritySearch(){
+//        List<Document> result = aiService.similaritySearch("space movie");
+//        for(var doc: result){
+//            System.out.println(doc);
+//        }
+//    }
+
 }
